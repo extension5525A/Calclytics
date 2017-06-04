@@ -1,0 +1,17 @@
+public class MatchStrategy {
+
+	//The name of the strategy created
+	String name;
+	//Any notes about the strategy
+	String notes;
+	//Time this one strategy took
+	int time;
+	//Total points the sttrategy made
+	int points;
+	//The average of p'(t) for the interval
+	int pointRate;
+	//The average of p''(t) for the interval
+	int pointCurve;
+	//Time divided by total points
+	int effort;
+}
