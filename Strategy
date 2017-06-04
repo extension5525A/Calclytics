@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Strategy {
+
+	//The name of the strategy created
+	String name;
+	//Any notes about the strategy
+	String notes;
+	//A list of each time the strategy took
+	ArrayList<Integer> time = new ArrayList<Integer>();
+	//A list of each points the strategy made
+	ArrayList<Integer> points = new ArrayList<Integer>();
+	//A list of each average points per second for each time the strategy was executed
+	ArrayList<Integer> pointRate = new ArrayList<Integer>();
+	//A list of each average points per second per second for each time the strategy was executed
+	ArrayList<Integer> pointCurve = new ArrayList<Integer>();
+	//A list of each time per points for each time the strategy was executed
+	ArrayList<Integer> effort = new ArrayList<Integer>();
+	//A list of what vieods and what times the strategy was executed
+	ArrayList<String> videos = new ArrayList<String>();
+}
