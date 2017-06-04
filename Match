@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Match {
+
+	//Name of match
+	String name;
+	//Ally in allience
+	String ally;
+	//Names of both enemy robots
+	String compedators;
+	//Name of the video file for this match
+	String fileName;
+	//p(t) for the match
+	Function points;
+	//The strategies used in the match
+	ArrayList<MatchStrategy> time = new ArrayList<MatchStrategy>();
+	
+}
