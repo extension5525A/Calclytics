@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class Robot {
+
+	//Name of the robot
+	String name;
+	//All strategies used by this robot
+	ArrayList<Strategy> strategyLibraries = new ArrayList<Strategy>();
+
+}
